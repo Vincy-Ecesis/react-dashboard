@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: #fafafa;
 }
 
 .App-logo {
@@ -26,6 +27,7 @@
 
 .App-link {
   color: #61dafb;
+
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +37,56 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* custom css */
+.mt-200 {
+  padding-top: 230px;
+  padding-bottom: 70px;
+}
+
+.bXIdkk {
+  display: none;
+}
+.fixed-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+ --bs-gutter-x: 0rem !important;
+}
+
+@media (min-width: 1900px){
+  .container {
+    max-width: 1600px !important;
+}
+}
+.apexcharts-legend.apx-legend-position-bottom .apexcharts-legend-series{
+  margin:10px 0px !important;
+}
+
+.apexcharts-legend {
+  margin-left: 20px;
+}
+.apexcharts-legend-text{
+  font-weight: 600 !important;
+    color: #909397 !important;
+    font-family:   sans-serif !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+@media(max-width:991px){
+  .apexcharts-legend.apx-legend-position-bottom .apexcharts-legend-series {
+    margin: 6px 0px !important;
+}
+.mt-200 {
+  padding: 300px 10px 10px 10px;
+}
 }
